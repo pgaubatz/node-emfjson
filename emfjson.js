@@ -11,7 +11,7 @@ var Deserializer = {
     }
 
     if (ref.substr(0, 3) !== '//@') {
-      throw 'wrong $ref format... ' + ref;
+      throw new Error('wrong $ref format... ' + ref);
     }
 
     ref = ref.slice(2); // strip '//'
@@ -21,7 +21,7 @@ var Deserializer = {
 
       t1.split('.').forEach(function (t2) {
         if (typeof currentEntity[t2] === 'undefined') {
-          throw 'invalid $ref... ' + ref;
+          throw new Error('invalid $ref... ' + ref);
         }
         currentEntity = currentEntity[t2];
       });
