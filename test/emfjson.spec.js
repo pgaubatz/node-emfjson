@@ -2,7 +2,7 @@
 
 var expect = require('chai').expect;
 
-var EMFJson = require('../emfjson');
+var EMFJson = require('../index');
 
 describe('EMFJson', function () {
   it('resolves "/" references', function () {

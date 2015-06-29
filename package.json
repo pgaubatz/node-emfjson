@@ -2,7 +2,7 @@
   "name": "emfjson",
   "version": "0.1.0",
   "description": "Serialize und deserialize EMFJson-encoded JSON documents",
-  "main": "emfjson.js",
+  "main": "index.js",
   "directories": {
     "test": "test"
   },
