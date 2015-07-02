@@ -21,7 +21,7 @@
   },
   "homepage": "https://github.com/pgaubatz/node-emfjson#readme",
   "dependencies": {
-    "lodash": "^3.9.3"
+    "clone": "^1.0.2"
   },
   "devDependencies": {
     "chai": "^3.0.0",
